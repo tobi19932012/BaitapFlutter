@@ -8,8 +8,8 @@
 // Đầu vào là 1 mảng số tự nhiên từ 0 -> 100
 // void main() {
 //   List<int> numbers = [];
-//   for (int i = 0; i <= 100; i++) {
-//     numbers.add(i);
+//   for (int n = 0; n <= 100; n++) {
+//     numbers.add(n);
 //   }
 //   print(numbers);
 // }
@@ -17,9 +17,9 @@
 // Liệt kê ra toàn bộ các số lẻ
 // void main() {
 //   List<int> numbers = [];
-//   for (int i = 0; i <= 100; i++) {
-//     if (i % 2 != 0) {
-//     numbers.add(i);
+//   for (int n = 0; n <= 100; n++) {
+//     if (n % 2 != 0) {
+//     numbers.add(n);
 //     }
 //   }
 //   print(numbers);
@@ -28,9 +28,9 @@
 // Liệt kê ra toàn bộ các số chẵn
 // void main() {
 //   List<int> numbers = [];
-//   for (int i = 0; i <= 100; i++) {
-//     if (i % 2 == 0) {
-//     numbers.add(i);
+//   for (int n = 0; n <= 100; n++) {
+//     if (n % 2 == 0) {
+//     numbers.add(n);
 //     }
 //   }
 //   print(numbers);

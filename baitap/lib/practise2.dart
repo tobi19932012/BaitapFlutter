@@ -38,7 +38,7 @@ void main(List<String> args) {
   str3 = str3.substring(0, str3.length -1);
   
   // => trả kết quả
-  String s1 = str1 + " " + arr[5] + " " +  arr[4] + " " + arr[9][1] + " " + arr[8][true] + " " + arr[8][1] + " " + arr[9][0] + " " + arr[1].toString() + " " + arr[9][2] + " " + str2 + arr[8][10.2] + " " +  str3.toUpperCase() + " " + arr[10];
+  String s1 = "${str1 + " " + arr[5] + " " +  arr[4] + " " + arr[9][1] + " " + arr[8][true] + " " + arr[8][1] + " " + arr[9][0] + " " + arr[1].toString() + " " + arr[9][2] + " " + str2 + arr[8][10.2]} ${str3.toUpperCase()} " + arr[10];
      
   print(s1);
 }
