@@ -71,41 +71,41 @@
 // ham chuyen doi gia string , int , double 
 
 // Chuyển đổi String sang int
-int? stringToInt(String str) {
-  return int.parse(str);
-}
+// int? stringToInt(String str) {
+//   return int.parse(str);
+// }
 
-// Chuyển đổi String sang double
-double? stringToDouble(String str) {
-  return double.parse(str);
-}
+// // Chuyển đổi String sang double
+// double? stringToDouble(String str) {
+//   return double.parse(str);
+// }
 
-// Chuyển đổi int sang String
-String intToString(int number) {
-  return number.toString();
-}
+// // Chuyển đổi int sang String
+// String intToString(int number) {
+//   return number.toString();
+// }
 
-// Chuyển đổi double sang String
-String doubleToString(double number) {
-  return number.toString();
-}
+// // Chuyển đổi double sang String
+// String doubleToString(double number) {
+//   return number.toString();
+// }
 
-// Chuyển đổi int sang double
-double intToDouble(int number) {
-  return number.toDouble();
-}
+// // Chuyển đổi int sang double
+// double intToDouble(int number) {
+//   return number.toDouble();
+// }
 
-// Chuyển đổi double sang int
-int doubleToInt(double number) {
-  return number.toInt();
-}
+// // Chuyển đổi double sang int
+// int doubleToInt(double number) {
+//   return number.toInt();
+// }
 
 
-void main() {
-  print(stringToInt("123")); // 123
-  print(stringToDouble("123.45")); // 123.45
-  print(intToString(123)); // "123"
-  print(doubleToString(123.45)); // "123.45"
-  print(intToDouble(123)); // 123.0
-  print(doubleToInt(123.45)); // 123
-}
+// void main() {
+//   print(stringToInt("123")); // 123
+//   print(stringToDouble("123.45")); // 123.45
+//   print(intToString(123)); // "123"
+//   print(doubleToString(123.45)); // "123.45"
+//   print(intToDouble(123)); // 123.0
+//   print(doubleToInt(123.45)); // 123
+// }
