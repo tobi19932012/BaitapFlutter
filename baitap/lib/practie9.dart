@@ -18,8 +18,7 @@ List<int> BagiatriNhoNhat(List<int> arrNum) {
 List<int> BagiatriLonNhat(List<int> arrNum) {
   List<int> result = [];
   // sắp xếp lại vi trí trong mảng
-  arrNum.sort();
   // Lấy 3 phần tử cuối
-  result = arrNum.sublist(arrNum.length - 3);
+  result = arrNum.reversed.toList().sublist(0, 3);
   return result;
 }
